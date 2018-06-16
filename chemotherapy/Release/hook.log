@@ -1,0 +1,24 @@
+﻿  aimbot.cpp
+  dll.cpp
+  esp.cpp
+  game.cpp
+  glow.cpp
+  gui.cpp
+  hooks.cpp
+  md5.cpp
+  netvars.cpp
+  prediction.cpp
+LINK : error LNK2001: unresolved external symbol _Entry
+aimbot.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+aimbot.obj : error LNK2001: unresolved external symbol ___std_terminate
+dll.obj : error LNK2001: unresolved external symbol __imp__strcpy_s
+dll.obj : error LNK2001: unresolved external symbol __imp___stricmp
+dll.obj : error LNK2001: unresolved external symbol _strstr
+esp.obj : error LNK2001: unresolved external symbol __imp____stdio_common_vsprintf_s
+MSVCRT.lib(new_scalar.obj) : error LNK2001: unresolved external symbol __callnewh
+MSVCRT.lib(new_scalar.obj) : error LNK2001: unresolved external symbol _malloc
+MSVCRT.lib(throw_bad_alloc.obj) : error LNK2001: unresolved external symbol ___std_exception_copy
+MSVCRT.lib(throw_bad_alloc.obj) : error LNK2001: unresolved external symbol ___std_exception_destroy
+MSVCRT.lib(throw_bad_alloc.obj) : error LNK2001: unresolved external symbol __CxxThrowException@8
+MSVCRT.lib(delete_scalar.obj) : error LNK2001: unresolved external symbol _free
+..\csgo.dll : fatal error LNK1120: 13 unresolved externals
